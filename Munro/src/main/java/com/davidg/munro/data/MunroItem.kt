@@ -6,3 +6,4 @@ data class MunroItem(
     var gridReference: String? =  null,
     var hillCategory: String? =  null,
 )
+

@@ -6,23 +6,33 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2e90543-5551-44af-84dd-f21a2c8a685e" name="Default Changelist" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/Munro/src/main/assets/munrotab_v6.2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/data/MunroItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/data/SortDirection.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/utils/Functions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/utils/NumberUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Munro/src/test/java/com/davidg/munro/MunroUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/munrotab_v6.2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Munro/src/test/java/com/davidg/munro/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+    <list default="true" id="a2e90543-5551-44af-84dd-f21a2c8a685e" name="Default Changelist" comment="Added the functions to sort the list along with some unit tests">
+      <change afterPath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/data/MunroItemDAO.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/main/Munro.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Munro/src/main/assets/munrotab_v6.2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Munro/src/main/assets/munrotab_v6.2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/data/MunroItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/data/MunroItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/utils/Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/utils/Functions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/utils/NumberUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/utils/TestUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Munro/src/test/java/com/davidg/munro/MunroUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Munro/src/test/java/com/davidg/munro/MunroUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/munrotab_v6.2.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/davidg/xdesigntask/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/davidg/xdesigntask/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
@@ -61,9 +71,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Data Class" />
-        <option value="Kotlin Object" />
         <option value="Kotlin File" />
         <option value="Kotlin Enum" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -90,10 +102,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Munro/src/main/assets" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Munro/src/main/assets" />
       <recent name="$PROJECT_DIR$/app/src/main/assets" />
     </key>
   </component>
@@ -200,8 +213,31 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="MunroUnitTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.davidg.munro.MunroUnitTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":Munro:cleanTestDebugUnitTest" />
+            <option value=":Munro:testDebugUnitTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MunroUnitTest" />
         <item itemvalue="Gradle.ExampleUnitTest" />
         <item itemvalue="Gradle.ExampleUnitTest.check_if_string_contains_numbers_and_letters" />
       </list>
@@ -240,30 +276,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Added the functions to sort the list along with some unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the functions to sort the list along with some unit tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/davidg/xdesigntask/MainActivity.kt</url>
-          <line>17</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/main/Munro.kt</url>
+          <line>33</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/davidg/xdesigntask/MainActivity.kt</url>
-          <line>105</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/main/Munro.kt</url>
+          <line>34</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/davidg/xdesigntask/MainActivity.kt</url>
-          <line>104</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/davidg/xdesigntask/MainActivity.kt</url>
-          <line>108</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/main/Munro.kt</url>
+          <line>35</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
