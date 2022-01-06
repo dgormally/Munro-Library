@@ -141,9 +141,9 @@ class Munro {
         /* Returns all munros by Min height */
 
         @JvmStatic
-        fun munrosMinHeight(maxHeight: Int): List<MunroItem> {
+        fun munrosMinHeight(minHeight: Int): List<MunroItem> {
             checkInitialization()
-            return munroItems.filter { it.heightInMeters isGreaterThanOrEqual (maxHeight.toDouble()) == true }
+            return munroItems.filter { it.heightInMeters isGreaterThanOrEqual (minHeight.toDouble()) == true }
         }
 
 

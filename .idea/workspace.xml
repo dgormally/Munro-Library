@@ -14,8 +14,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2e90543-5551-44af-84dd-f21a2c8a685e" name="Default Changelist" comment="Added the functions to sort the list along with some unit tests">
-      <change afterPath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/data/MunroItemDAO.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/main/Munro.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
@@ -24,17 +22,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Munro/src/main/assets/munrotab_v6.2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Munro/src/main/assets/munrotab_v6.2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/data/MunroItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/data/MunroItem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/utils/Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/utils/Functions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/utils/NumberUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/utils/TestUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Munro/src/test/java/com/davidg/munro/MunroUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Munro/src/test/java/com/davidg/munro/MunroUnitTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/munrotab_v6.2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/main/Munro.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Munro/src/main/java/com/davidg/munro/main/Munro.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/davidg/xdesigntask/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/davidg/xdesigntask/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641295233208</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added the functions to sort the list along with some unit tests">
+      <created>1641471505811</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641471505811</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
